@@ -260,13 +260,7 @@ explicitly (handy for the bundled paper results):
 
 ```bash
 python src/evaluation/evaluation_metrics.py \
-    --label-file     data/MorehopQA/Phi4/evaluation.json Can you please provide me with access to this document?
-
-
-
-
-
-
+    --label-file     data/MorehopQA/Phi4/evaluation.json 
     --gib-file       data/MorehopQA/Phi4/GIBS_results.json \
     --nibs-file      data/MorehopQA/Phi4/NIBS_results.json \
     --ptrue-file     data/MorehopQA/Phi4/ptrue_phi4_morehopqa_.pkl \
@@ -300,9 +294,6 @@ To add/adjust a dataset (prompt, source format, answer extraction), edit
 | dataset stages, gpt_eval, evaluation_metrics | `morehopqa`, `gsm8k`, `math` | `llama`, `deepseek`, `phi4` |
 | `baseline/p_true.py` (`--dataset`/`--model`) | `morehopqa`, `gsm8k`, `math` | `llama3`, `phi4`, `deepseek` |
 | `baseline/white_box_baseline.py` (`--model-name`) | — | `llama3`, `phi4`, `deepseek` |
-
-(The baseline scripts predate the unified naming; the table above is the exact
-mapping for the HotpotQA/MoreHopQA data.)
 
 ---
 
