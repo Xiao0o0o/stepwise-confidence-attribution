@@ -1,0 +1,7 @@
+# Demo / pipeline outputs
+output/
+**/temp/
+**/intermediate_checkpoints/
+*.pyc
+__pycache__/
+.ipynb_checkpoints/

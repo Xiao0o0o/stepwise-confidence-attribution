@@ -1,0 +1,251 @@
+[
+  {
+    "_id": "5ae789615542997ec2727695_12",
+    "question": "How many letters are there between the first and last letters of the first name of the director of a 2004 film where Kam Heskin plays Paige Morgan in?",
+    "answer": "4",
+    "context": [
+      [
+        "The Prince and Me",
+        [
+          "The Prince and Me is a 2004 romantic comedy film directed by Martha Coolidge, and starring Julia Stiles, Luke Mably, and Ben Miller, with Miranda Richardson, James Fox, and Alberta Watson.",
+          " The film focuses on Paige Morgan, a pre-med college student in Wisconsin, who is pursued by a prince posing as a normal college student."
+        ]
+      ],
+      [
+        "Kam Heskin",
+        [
+          "Kam Heskin (born Kam Erika Heskin on May 8, 1973) is an American actress.",
+          " She began her career playing Caitlin Richards Deschanel on the NBC daytime soap opera \"Sunset Beach\" (1998\u20131999), before appearing in films \"Planet of the Apes\" (2001 and \"Catch Me If You Can\" (2002).",
+          " Heskin went to play Elizabeth Bennet in the 2003 independent film \"\", and Paige Morgan in the \"The Prince and Me\" film franchise (2006\u20132010)."
+        ]
+      ]
+    ]
+  },
+  {
+    "_id": "5ae6828f5542996d980e7bb9_12",
+    "question": "How many letters are there between the first and last letters of the first name of the person who designed and built the park which links Salisbury Woodland Gardens with a zoo?",
+    "answer": "4",
+    "context": [
+      [
+        "Stanley Park, Blackpool",
+        [
+          "Stanley Park is a public park in the town of Blackpool on the Fylde coast in Lancashire, England.",
+          " It is the town's primary park and covers an area of approximately 104 ha .",
+          " The park was designed to include significant sporting provisions, along with formal gardens, a boating lake and woodland area.",
+          " It was designed and built in the 1920s, under the eye of Thomas Mawson."
+        ]
+      ],
+      [
+        "Salisbury Woodland Gardens, Blackpool",
+        [
+          "Salisbury Woodland Gardens is an open space located in the east of Blackpool, flanked by East Park Drive and Woodside Drive and linking Blackpool Zoo with Stanley Park.",
+          " Known simply as the 'Woodland Gardens' to local people, the site was acquired in 1924 by Blackpool Corporation and was originally developed as a shelter belt for the adjacent Stanley Park Golf Course.",
+          " The gardens were later developed in the 1940s as an arboretum and public open space for all to enjoy.",
+          " It was renovated in 1967 by Peter Perry and his 'Flying Squad (see below).",
+          " Popular once as a wedding photograph location, the site went into decline during the 1990s.",
+          " The Council's Ranger Service manage and protect the gardens which they took over in September 2006 and have been funding and undertaking the restoration of the woodland."
+        ]
+      ]
+    ]
+  },
+  {
+    "_id": "5ae457a95542996836b02c85_4",
+    "question": "How many consonants are there in the last name of the person who directed and wrote the 2016 film featuring the voice of Townsend Coleman?",
+    "answer": "6",
+    "context": [
+      [
+        "Townsend Coleman",
+        [
+          "Townsend Putnam Coleman III (born May 28, 1954) is an American voice actor who performed in many animated series and TV commercials beginning in the early 1980s.",
+          " Among his most notable roles are Michaelangelo from \"Teenage Mutant Ninja Turtles\", Wayne Gretzky on \"ProStars\" and the title character in \"Where's Waldo?",
+          "\" and the eponymous \"The Tick\" and he also did additional voices in \"Dexter's Laboratory\", \"The Powerpuff Girls\", \"Adventure Time\", \"Animaniacs\", \"The Buzz on Maggie\", \"Camp Lazlo\", \"CatDog\", \"Catscratch\", \"Danny Phantom\", \"Dave the Barbarian\", \"\", \"The Fairly OddParents\", \"Foster's Home for Imaginary Friends\", \"Gravity Falls\", \"Hi Hi Puffy AmiYumi\", \"\", \"The\u2005Loud\u2005House\", \"The Mighty B!",
+          "\", \"My Life As A Teenage Robot\" and \"The Replacements\" and he also did the voice of Knotty in \"\" (1992) and he also did additional voices in films \"Fantasia 2000\" (1999) and \"Sing\" (2016)"
+        ]
+      ],
+      [
+        "Sing (2016 American film)",
+        [
+          "Sing is a 2016 American 3D computer-animated musical comedy film produced by Illumination Entertainment.",
+          " It was directed and written by Garth Jennings, co-directed by Christophe Lourdelet, and starring the voices of Matthew McConaughey, Reese Witherspoon, Seth MacFarlane, Scarlett Johansson, John C. Reilly, Taron Egerton, and Tori Kelly.",
+          " The film is about a group of anthropomorphic animals that enter a singing competition, hosted by a koala hoping to save his theater."
+        ]
+      ]
+    ]
+  },
+  {
+    "_id": "5ab3eeb5554299233954fff4_1",
+    "question": "What is the sum of the (unique) prime factors of the year when The actress that plays Kaylee Frye in the series \"Firefly\" also stars with Alan Dale in a sci-fi tv film released in?",
+    "answer": "2011",
+    "context": [
+      [
+        "Jewel Staite",
+        [
+          "Jewel Belair Staite (born June 2, 1982) is a Canadian actress.",
+          " She is known for her roles as Kaylee Frye in the Fox television series \"Firefly\" (2002\u201303) and its spin-off theatrical film \"Serenity\" (2005), and as Dr. Jennifer Keller on Sci-Fi Channel's science-fiction television series \"Stargate Atlantis\" (2007\u201309).",
+          " Staite also starred in her youth as Catalina in \"Space Cases\" (1996) and as \"Becca\" Fisher in \"Flash Forward\" (1996\u201397), and more recently as Raquel Westbrook in the Canadian drama \"The L.A. Complex\" (2012) and Caroline Swift in AMC's crime drama \"The Killing\" (2013\u201314)."
+        ]
+      ],
+      [
+        "Doomsday Prophecy",
+        [
+          "Doomsday Prophecy is a 2011 sci-fi disaster television film by Jason Bourque starring Jewel Staite, Alan Dale and A.J. Buckley."
+        ]
+      ]
+    ]
+  },
+  {
+    "_id": "5ae835f25542997ec272776f_1",
+    "question": "What is the sum of the (unique) prime factors of the birth year of the player who Charles Barkley changed his jersey number to #32 in honor of?",
+    "answer": "656",
+    "context": [
+      [
+        "Magic Johnson",
+        [
+          "Earvin \"Magic\" Johnson Jr. (born August 14, 1959) is an American retired professional basketball player and current president of basketball operations of the Los Angeles Lakers of the National Basketball Association (NBA).",
+          " He played point guard for the Lakers for 13 seasons.",
+          " After winning championships in high school and college, Johnson was selected first overall in the 1979 NBA draft by the Lakers.",
+          " He won a championship and an NBA Finals Most Valuable Player Award in his rookie season, and won four more championships with the Lakers during the 1980s.",
+          " Johnson retired abruptly in 1991 after announcing that he had contracted HIV, but returned to play in the 1992 All-Star Game, winning the All-Star MVP Award.",
+          " After protests from his fellow players, he retired again for four years, but returned in 1996, at age 36, to play 32 games for the Lakers before retiring for the third and final time."
+        ]
+      ],
+      [
+        "1991\u201392 Philadelphia 76ers season",
+        [
+          "The 1991\u201392 NBA season was the 76ers 43rd season in the National Basketball Association, and 29th season in Philadelphia.",
+          " For the season, Charles Barkley changed his jersey number to #32 in honor of Magic Johnson, who retired due to HIV.",
+          " However, the Sixers had retired that number in honor of Billy Cunningham, who un-retired it for Barkley to wear.",
+          " After winning seven of their first ten games, the Sixers went on a 7-game losing streak.",
+          " Plagued by injuries all season, they missed the playoffs by finishing fifth in the Atlantic Division with a 35\u201347 record.",
+          " Barkley was selected for the 1992 NBA All-Star Game, where Magic returned and won the All-Star MVP award.",
+          " Making matters worse for the Sixers, Barkley had a falling out with management when they did not re-sign Rick Mahorn, who went overseas to play in Italy.",
+          " When the season was over, he demanded a trade which the Sixers obliged sending him to the Phoenix Suns.",
+          " Mahorn would later on sign as a free agent with the New Jersey Nets during the following offseason."
+        ]
+      ]
+    ]
+  },
+  {
+    "_id": "5a81dacc55429926c1cdada0_8",
+    "question": "What is the combined length of the first name and last name of the author of the play that was adapted into a film and featured the orchestral arrangement Suite from Henry V?",
+    "answer": "18",
+    "context": [
+      [
+        "Suite from Henry V",
+        [
+          "Suite from Henry V is a 1963 orchestral arrangement of William Walton's musical score from the 1944 film \"Henry V\".",
+          " The suite, arranged by Muir Mathieson, is in five movements, although the second and fourth movements had already appeared in string arrangement form in Walton's own Two Pieces for Strings from Henry V."
+        ]
+      ],
+      [
+        "Henry V (1944 film)",
+        [
+          "Henry V is a 1944 British Technicolor film adaptation of William Shakespeare's play of the same name.",
+          " The on-screen title is The Chronicle History of King Henry the Fift with His Battell Fought at Agin Court in France (the title of the 1600 quarto edition of the play).",
+          " It stars Laurence Olivier, who also directed.",
+          " The play was adapted for the screen by Olivier, Dallas Bower, and Alan Dent.",
+          " The score is by William Walton."
+        ]
+      ]
+    ]
+  },
+  {
+    "_id": "5ac23f9555429951e9e684db_8",
+    "question": "What is the combined length of the first name and last name of the role the actor who played Colonel Sherman T. Potter in \"M*A*S*H\" played in \"Kentucky Jones\"?",
+    "answer": "13",
+    "context": [
+      [
+        "Kentucky Jones",
+        [
+          "Kentucky Jones is a half-hour comedy/drama starring Dennis Weaver as Kenneth Yarborough \"K.Y. or Kentucky\" Jones, D.V.M., a recently widowed former horse trainer and active horse farm owner, who becomes the guardian of Dwight Eisenhower \"Ike\" Wong, a 10-year-old Chinese orphan, played by Ricky Der.",
+          " Harry Morgan, previously of the CBS sitcoms \"December Bride\" and \"Pete and Gladys\", was featured in the series as Seldom Jackson, a former jockey who assists Dr. Jones.",
+          " Cherylene Lee appears as Annie Ng, Ike's friend.",
+          " Arthur Wong portrays Mr. Ng, Annie's father.",
+          " Keye Luke (1904-1991) stars as Mr. Wong, a friend of Dr. Jones.",
+          " Nancy Rennick (1932-2006) appears as Miss Throncroft, a social worker.",
+          " \"Kentucky Jones\", which ran on NBC from September 19, 1964, to September 11, 1965, was the first of four television series starring Weaver after he left the role of the marshall's helper Chester Goode on CBS's western classic \"Gunsmoke\"."
+        ]
+      ],
+      [
+        "Harry Morgan",
+        [
+          "Harry Morgan (born Harry Bratsberg, April 10, 1915 \u2013 December 7, 2011) was an American actor and director whose television and film career spanned six decades.",
+          " Morgan's major roles included Pete Porter in both \"December Bride\" (1954\u20131959) and \"Pete and Gladys\" (1960\u20131962); Officer Bill Gannon on \"Dragnet\" (1967\u20131970); Amos Coogan on \"Hec Ramsey\" (1972\u20131974); and his starring role as Colonel Sherman T. Potter in \"M*A*S*H\" (1975\u20131983) and \"AfterMASH\" (1983\u20131984).",
+          " Morgan appeared in more than 100 films."
+        ]
+      ]
+    ]
+  },
+  {
+    "_id": "5ac23f9555429951e9e684db_15",
+    "question": "What is the alphabetical order of the letters in the first name of the role the actor who played Colonel Sherman T. Potter in \"M*A*S*H\" played in \"Kentucky Jones\"?",
+    "answer": "delmos",
+    "context": [
+      [
+        "Kentucky Jones",
+        [
+          "Kentucky Jones is a half-hour comedy/drama starring Dennis Weaver as Kenneth Yarborough \"K.Y. or Kentucky\" Jones, D.V.M., a recently widowed former horse trainer and active horse farm owner, who becomes the guardian of Dwight Eisenhower \"Ike\" Wong, a 10-year-old Chinese orphan, played by Ricky Der.",
+          " Harry Morgan, previously of the CBS sitcoms \"December Bride\" and \"Pete and Gladys\", was featured in the series as Seldom Jackson, a former jockey who assists Dr. Jones.",
+          " Cherylene Lee appears as Annie Ng, Ike's friend.",
+          " Arthur Wong portrays Mr. Ng, Annie's father.",
+          " Keye Luke (1904-1991) stars as Mr. Wong, a friend of Dr. Jones.",
+          " Nancy Rennick (1932-2006) appears as Miss Throncroft, a social worker.",
+          " \"Kentucky Jones\", which ran on NBC from September 19, 1964, to September 11, 1965, was the first of four television series starring Weaver after he left the role of the marshall's helper Chester Goode on CBS's western classic \"Gunsmoke\"."
+        ]
+      ],
+      [
+        "Harry Morgan",
+        [
+          "Harry Morgan (born Harry Bratsberg, April 10, 1915 \u2013 December 7, 2011) was an American actor and director whose television and film career spanned six decades.",
+          " Morgan's major roles included Pete Porter in both \"December Bride\" (1954\u20131959) and \"Pete and Gladys\" (1960\u20131962); Officer Bill Gannon on \"Dragnet\" (1967\u20131970); Amos Coogan on \"Hec Ramsey\" (1972\u20131974); and his starring role as Colonel Sherman T. Potter in \"M*A*S*H\" (1975\u20131983) and \"AfterMASH\" (1983\u20131984).",
+          " Morgan appeared in more than 100 films."
+        ]
+      ]
+    ]
+  },
+  {
+    "_id": "5ae738f75542991bbc9761c4_3",
+    "question": "What is the closest palindrome number to the year the brother of this first round draft pick by the Washington Redskins was drafted?",
+    "answer": "2002",
+    "context": [
+      [
+        "Champ Bailey",
+        [
+          "Roland \"Champ\" Bailey Jr. (born June 22, 1978) is a former American football cornerback in the National Football League (NFL).",
+          " He played college football for Georgia, where he earned consensus All-American honors, and was drafted by the Washington Redskins in the first round of the 1999 NFL Draft.",
+          " He is the brother of former NFL linebacker Boss Bailey."
+        ]
+      ],
+      [
+        "Boss Bailey",
+        [
+          "Rodney \"Boss\" Bailey (born October 14, 1979) is a former American football linebacker who played in the National Football League.",
+          " He was originally drafted by the Detroit Lions in the second round of the 2003 NFL Draft.",
+          " He played college football at the University of Georgia.",
+          " He is the brother of former NFL cornerback Champ Bailey."
+        ]
+      ]
+    ]
+  },
+  {
+    "_id": "5a7997a2554299029c4b5f59_3",
+    "question": "What is the closest palindrome number to the year until when Tefik Selim Mborja was a part of a party that held power in Albania?",
+    "answer": "1991",
+    "context": [
+      [
+        "Albanian Fascist Party",
+        [
+          "The Albanian Fascist Party (Albanian: \"Partia Fashiste e Shqip\u00ebris\u00eb\" , or PFSh) was a Fascist organization active during World War II which held nominal power in Albania from 1939, when the country was conquered by Italy, until 1943, when Italy capitulated to the Allies.",
+          " Afterwards, Albania fell under German occupation, and the PFSh was replaced by the Guard of Greater Albania."
+        ]
+      ],
+      [
+        "Tefik Mborja",
+        [
+          "Tefik Selim Mborja (1888-1954) was an Albanian politician and lawyer.",
+          " He served as the general secretary of the Albanian Fascist Party during the Second World War."
+        ]
+      ]
+    ]
+  }
+]
