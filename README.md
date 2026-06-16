@@ -91,7 +91,7 @@ Tested with **Python 3.10** and the pinned versions in
 vllm 0.6.6.post1).
 
 ```bash
-git clone <this-repo>
+git clone https://github.com/Xiao0o0o/stepwise-confidence-attribution.git
 cd stepwise
 
 # On the cluster (mamba/conda):
@@ -275,17 +275,6 @@ Three datasets are supported. Each has its own entry (source path + prompt) in
 [`dataset_config.py`](src/dataset/dataset_config.py); all prompts emit the same
 `ReasoningGraph` structure so the downstream stages are dataset-agnostic.
 
-| `--dataset` | data | source format | prompt | context? |
-| --- | --- | --- | --- | --- |
-| `morehopqa` | MoreHopQA (multi-hop QA over HotpotQA passages) | `.json` list | `PROMPT_WITH_CONTEXT` | yes — supporting passages |
-| `gsm8k`    | GSM8K grade-school math | `.jsonl` (answer auto-extracted from `#### N`) | `PROMPT_NO_CONTEXT` | no |
-| `math`     | MATH (drop your source in `data/source/math_sample.json`) | `.json` list | `PROMPT_NO_CONTEXT` (customize) | no |
-
-Source loading is centralized in `dataset_config.load_source_dataset()`, which
-normalizes every dataset to `{_id, question, answer, context}` (auto-generating
-`_id`s and extracting the GSM8K `#### N` answer). So **the same three dataset
-scripts generate GSM8K with no changes** — just:
-
 ```bash
 python src/dataset/generate_responds_vllm.py --dataset gsm8k --model phi4 \
     --dataset-path data/source/gsm8k_full.jsonl
@@ -294,8 +283,7 @@ python src/dataset/bert_graph.py       --dataset gsm8k --model phi4
 ```
 
 To add/adjust a dataset (prompt, source format, answer extraction), edit
-`DATASETS` / the `PROMPT_*` constants in `dataset_config.py` — nothing else needs
-to change.
+`DATASETS` / the `PROMPT_*` constants in `dataset_config.py`.
 
 ---
 
