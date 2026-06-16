@@ -182,8 +182,7 @@ python src/dataset/bert_graph.py --dataset morehopqa --model llama --device cuda
 
 ### Stage 4 — Label step correctness with an LLM judge  *(OpenAI key)*
 
-GPT-4o-mini marks each edge-node pair correct (1) / incorrect (0). These labels
-are the ground truth for the final metrics.
+GPT-4o-mini marks each edge-node pair correct (1) / incorrect (0).
 
 ```bash
 export OPENAI_API_KEY=sk-...
