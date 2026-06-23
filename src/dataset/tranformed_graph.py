@@ -287,6 +287,35 @@ def parse_reasoning_graph_bb(text, logprobs):
         'probs_info': probs_info
     }
 
+def parse_plain_reasoning_trace(text, logprobs):
+    # strip <think> tags if present
+    cleaned = re.sub(r'</?think>', '', text, flags=re.IGNORECASE).strip()
+
+    # split into rough steps
+    parts = [p.strip() for p in re.split(r'\n+|(?<=[.!?])\s+', cleaned) if p.strip()]
+
+    nodes = []
+    for i, part in enumerate(parts[:4], start=1):
+        nodes.append({
+            "id": i,
+            "description": f"Reasoning step {i}",
+            "output": part,
+            "output_raw": part,
+            "depends_on": [i-1] if i > 1 else []
+        })
+
+    final_answer = None
+    m = re.search(r'(?:final answer|so answer|answer is|answer:)\s*[:=]?\s*([^\n.]+)', cleaned, re.I)
+    if m:
+        final_answer = safe_eval_math(m.group(1).strip())
+
+    return {
+        "nodes": nodes,
+        "final_answer": final_answer,
+        "logprobs_info": {},
+        "probs_info": {}
+    }
+
 def parse_reasoning_graph(text, logprobs):
     nodes = []
     final_answer = None
@@ -296,7 +325,7 @@ def parse_reasoning_graph(text, logprobs):
     graph_positions = [m.start() for m in re.finditer(r'ReasoningGraph\(', text)]
     
     if not graph_positions:
-        return None
+        return parse_plain_reasoning_trace(text, logprobs) #return None
         
     start_pos = graph_positions[0]
     end_pos = graph_positions[1] if len(graph_positions) > 1 else len(text)
@@ -404,6 +433,11 @@ def parse_reasoning_graph(text, logprobs):
         
         logprobs_info["NodeResult"] = final_logprobs
         probs_info["NodeResult"] = final_probs
+    
+    # Fallback for Phi-4 style traces
+    if len(nodes) == 0:
+        print("No ReasoningNode objects found. Falling back to plain-text parser.")
+        return parse_plain_reasoning_trace(text, logprobs)
     
     return {
         'nodes': nodes,
