@@ -1,10 +1,8 @@
-# Step-wise Confidence Estimation with NIBS and GIBS
+# Diagnosing Multi-step Reasoning Failures in Black-box LLMs via Stepwise Confidence Attribution
 
-A framework for generating, labeling, and **attributing step-wise confidence
-scores** to the reasoning traces of Large Language Models (LLMs). Each LLM
-response is parsed into a **reasoning graph** (nodes = intermediate results,
-edges = reasoning steps), and every step is scored by how confident we should
-be that it is correct.
+**ICML 2026** · [Paper](https://arxiv.org/abs/2605.19228) · [Citation](#citation)
+
+This repository provides the official implementation of stepwise confidence attribution with **NIBS** and **GIBS**: a framework for generating, labeling, and **attributing step-wise confidence scores** to the reasoning traces of Large Language Models (LLMs).
 
 Two Information-Bottleneck (IB) methods are implemented, plus several baselines:
 
@@ -133,7 +131,8 @@ The final evaluation cell always produces real numbers because it can fall back
 to the pre-computed results bundled in `data/MorehopQA/Deepseek/`.
 
 ```bash
-pip install jupyter
+pip install jupyter ipykernel
+python -m ipykernel install --user --name reasoning --display-name "Python (reasoning)"
 jupyter notebook notebooks/demo_morehopqa.ipynb
 ```
 
@@ -302,10 +301,10 @@ To add/adjust a dataset (prompt, source format, answer extraction), edit
 If you use this code, please cite:
 
 ```bibtex
-@article{liu2026diagnosing,
+@inproceedings{liu2026diagnosing,
   title={Diagnosing Multi-step Reasoning Failures in Black-box LLMs via Stepwise Confidence Attribution},
   author={Liu, Xiaoou and Chen, Tiejin and Zhang, Dengjia and Wang, Yaqing and Cheng, Lu and Wei, Hua},
-  journal={arXiv preprint arXiv:2605.19228},
+  booktitle={Proceedings of the 43rd International Conference on Machine Learning},
   year={2026}
 }
 ```
