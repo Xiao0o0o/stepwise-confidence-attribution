@@ -1,6 +1,6 @@
 # Diagnosing Multi-step Reasoning Failures in Black-box LLMs via Stepwise Confidence Attribution
 
-**ICML 2026** · [Paper](https://arxiv.org/abs/2605.19228) · [Citation](#citation)
+**ICML 2026** · [Paper](https://arxiv.org/abs/2605.19228)
 
 This repository provides the official implementation of stepwise confidence attribution with **NIBS** and **GIBS**: a framework for generating, labeling, and **attributing step-wise confidence scores** to the reasoning traces of Large Language Models (LLMs).
 
