@@ -1386,4 +1386,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    model, monitor, saved_paths = enhanced_training_loop_with_saving()
+    #model, monitor, saved_paths = enhanced_training_loop_with_saving()
